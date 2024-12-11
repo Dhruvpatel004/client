@@ -169,7 +169,7 @@ export default function CustomerTable({ customers, onCustomerUpdate }: CustomerT
                   }`}
                 >
                   <option value="pending">Pending</option>
-                  <option value="completed">Completed</option>
+                  <option value="completed">Resolved</option>
                 </select>
               </td>
               <td className="px-6 py-4 whitespace-nowrap">
